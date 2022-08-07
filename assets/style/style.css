@@ -8,6 +8,11 @@ body{
     font-family: Arial, sans-serif, sans-serif;
 }
 
+main {
+    font-size: 0px;
+}
+
+
 .for-header{
     text-align: center;
     color: #926239;    
@@ -17,7 +22,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    padding-top: 30vh;       
+    padding-top: 35vh;       
 }
 
 .for-header h1{
@@ -67,4 +72,9 @@ body{
     background-color: white;
     font-size: 17px;    
     line-height: 1.6;
+}
+
+.bottom-blocks {
+    display: inline-block;
+    width: calc(100%/3) ;      
 }
