@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, sans-serif, sans-serif;
+}
+
 .for-header{
     text-align: center;
     color: #926239;    
@@ -13,7 +17,7 @@ box-sizing: border-box;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    padding-top: 35vh;       
+    padding-top: 30vh;       
 }
 
 .for-header h1{
@@ -31,14 +35,36 @@ box-sizing: border-box;
     color: #926239;
     border-radius: 12px;
     text-align: center;
-    padding: 10px 15px;
-    border:2px solid;
+    padding: 15px 15px;    
+    border:1px solid;
     border-color: #926239;
-    font-size: 18px;
+    font-size: 18px;  
+    background-color: rgba(20,20,20,0);          
     
 }
 
 .btn-readmore:hover{
     background-color:#926239 ;
     color: white;
+}
+
+.arcticle-brown
+{
+    text-align: center;
+    color:white;
+    padding: 20px;
+    background-color: #926239;
+    font-size: 18px;    
+    line-height: 1.6;
+}
+
+
+.arcticle-white
+{
+    text-align: center;
+    color:#926239;;
+    padding: 20px;
+    background-color: white;
+    font-size: 17px;    
+    line-height: 1.6;
 }
