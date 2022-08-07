@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.for-header{
+    text-align: center;
+    color: #926239;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../image/beachshowcase.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 35vh;       
+}
+
+.for-header h1{
+    font-size: 50px;    
+}
+
+
+.for-header p{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.btn-readmore{
+    color: #926239;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px 15px;
+    border:2px solid;
+    border-color: #926239;
+    font-size: 18px;
+    
+}
+
+.btn-readmore:hover{
+    background-color:#926239 ;
+    color: white;
+}
