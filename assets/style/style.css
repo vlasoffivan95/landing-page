@@ -19,17 +19,17 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 35vh;       
 }
 
-.for-header h1{
+.h1-for-header{
     font-size: 50px;
     font-weight: bold;    
 }
 
 
-.for-header p{
+.p-for-header{
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 20px;
@@ -42,7 +42,7 @@ main {
     padding: 10px 20px;    
     border:1px solid;
     border-color: #926239;     
-    background-color: rgba(20,20,20,0);
+    background-color: transparent;
     line-height: 1.6;
     margin-top: 10px;              
     
@@ -53,24 +53,25 @@ main {
     color: white;
 }
 
-.arcticle-brown
-{
+
+.arcticle-brown, .arcticle-white {
     text-align: center;
-    color:white;
     padding: 20px;
-    background-color: #926239;       
     line-height: 1.6;
     font-size: 18px;
+
+}
+
+.arcticle-brown
+{    
+    color:white;    
+    background-color: #926239; 
 }
 
 .arcticle-white
 {
-    text-align: center;
-    color:#926239;;
-    padding: 20px;
-    background-color: white;       
-    line-height: 1.6;
-    font-size: 18px;
+    color:#926239;    
+    background-color: white; 
 }
 
 .bottom-blocks {
